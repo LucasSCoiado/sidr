@@ -20,10 +20,10 @@
                     @foreach($remedios as $remedio)
                         <tr>
                             <td>{{ $remedio->nome }}</td>
-                            <td>{{ $remedio->dose }}</td>
-                            <td>{{ $remedio->miligramas }}</td>
-                            <td>{{ $remedio->frequencia }}</td>
-                            <td>{{ $remedio->intervaloHoras }}</td>
+                            <td>{{ $remedio->dose }} mg</td>
+                            <td>{{ $remedio->miligramas }} mg</td>
+                            <td>{{ $remedio->frequencia }}x</td>
+                            <td>{{ $remedio->intervaloHoras }} Hrs</td>
                         </tr>
                     @endforeach
                 </tbody>
